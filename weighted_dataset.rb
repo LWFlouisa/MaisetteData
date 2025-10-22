@@ -2,10 +2,12 @@ weighted_dataset = [
   [ ["Cette livre es ancien.",                  0.0155571428727],
     ["Sinon livre es ne ancien ou jeune.", 0.054450000000000005],
     ["Cette livre es ancien.",                  0.0155571428727],
+    
     0.000013178 ],
 
   [ ["Cette livre es ancien.",         0.0155571428727],
     ["Mais cette livre es ne ancien.", 0.0155571428727],
+    
     0.000242025 ],
   
   [ ["Sinon livre es ne ancien ou jeune.",      0.0155571428727],
@@ -13,6 +15,7 @@ weighted_dataset = [
     ["Sinon livre es ne ancien ou jeune.", 0.054450000000000005] 
     ["Mais cette livre es ne ancien.",     0.054450000000000005],
     ["Sinon livre es ne ancien ou jeune.", 0.054450000000000005],
+    
     0.000000039 ],
 ]
 
