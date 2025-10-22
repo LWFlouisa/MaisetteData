@@ -27,8 +27,8 @@ third_pattern  = weighted_dataset[2]
 
 ## Conditional Labels
 cette    = first_pattern[0][0],    first_pattern[0][1]
-maisette = second_patterns[2][0], second_pattern[2][1]
-sinon    = third_patterns[0][0],   third_pattern[0][1]
+maisette = second_pattern[2][0], second_pattern[2][1]
+sinon    = third_pattern[0][0],   third_pattern[0][1]
 
 ## Summary Probabilities
 first_summary  = weighted_dataset[0][3]
