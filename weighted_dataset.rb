@@ -1,18 +1,20 @@
 weighted_dataset = [
   [ ["Cette livre es ancien.",                  0.0155571428727],
+    ["Cette livre es ancien.",                  0.0155571428727],
     ["Sinon livre es ne ancien ou jeune.", 0.054450000000000005],
     ["Cette livre es ancien.",                  0.0155571428727],
     
-    0.000013178 ],
+    0.000000059 ],
 
-  [ ["Cette livre es ancien.",         0.0155571428727],
-    ["Mais cette livre es ne ancien.", 0.0155571428727],
+  [ ["Cette livre es ancien.",                  0.0155571428727],
+    ["Sinon livre es ne ancien ou jeune.", 0.054450000000000005], 
+    ["Mais cette livre es ne ancien.",          0.0155571428727],
     
-    0.000242025 ],
+    0.000013178 ],
   
   [ ["Sinon livre es ne ancien ou jeune.",      0.0155571428727],
     ["Cette livre es ancien.",                  0.0155571428727],
-    ["Sinon livre es ne ancien ou jeune.", 0.054450000000000005] 
+    ["Sinon livre es ne ancien ou jeune.", 0.054450000000000005],
     ["Mais cette livre es ne ancien.",     0.054450000000000005],
     ["Sinon livre es ne ancien ou jeune.", 0.054450000000000005],
     
@@ -25,7 +27,7 @@ third_pattern  = weighted_dataset[2]
 
 ## Conditional Labels
 cette    = first_pattern[0][0],    first_pattern[0][1]
-maisette = second_patterns[1][0], second_pattern[1][1]
+maisette = second_patterns[2][0], second_pattern[2][1]
 sinon    = third_patterns[0][0],   third_pattern[0][1]
 
 ## Summary Probabilities
